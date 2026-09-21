@@ -16,3 +16,8 @@ f=(input("请输入一个数字"))
 q=(float(f)/10)+1
 print(q)
 print(f)
+
+high=(input("请输入身高"))
+weight=(input("请输入体重"))
+MBI=(float(weight)/(float(high)*float(high)))
+print(MBI)
