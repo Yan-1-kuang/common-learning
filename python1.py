@@ -12,3 +12,7 @@ print(a)
 a+=1
 print(a)
 
+f=(input("请输入一个数字"))
+q=(float(f)/10)+1
+print(q)
+print(f)
