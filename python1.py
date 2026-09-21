@@ -21,3 +21,9 @@ high=(input("请输入身高"))
 weight=(input("请输入体重"))
 MBI=(float(weight)/(float(high)*float(high)))
 print(MBI)
+if MBI<18.5:
+    print("过轻")
+elif MBI<24:
+    print("正常")
+else:
+    print("过重")
