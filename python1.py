@@ -7,3 +7,7 @@ print(lange)
 a=list1 + lange
 print(a)
 print(list1 + lange)
+print(a*3)
+print(1 in list1)
+print('Chines' in lange)
+print(list1[0]*9)
